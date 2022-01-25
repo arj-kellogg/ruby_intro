@@ -9,6 +9,12 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
+dice1 = 1 + rand(6)
+dice2 = 1 + rand(6)
+dicetotal = dice1 + dice2
+
+puts "Dice 1 role is #{dice1} and Dice 2 role is #{dice2}, the total is #{dice1 + dice2}"
+
 
 # HINTS
 # Get a random number between 1 and 6 by doing:

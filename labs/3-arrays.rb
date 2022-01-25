@@ -11,6 +11,12 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 
+array1 = ["milk", "eggs", "bread" ]
+array2 = ["milk", "honey", "meat"]
+
+array3 = array1 + array2
+
+puts array3.sort.uniq
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html

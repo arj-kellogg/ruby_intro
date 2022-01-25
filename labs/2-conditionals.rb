@@ -13,6 +13,17 @@
 # that reads "YOU LOSE!", otherwise, write a message that
 # reads "THE POINT IS {number}"
 
+dice1 = 1 + rand(6)
+dice2 = 1 + rand(6)
+dicetotal = dice1 + dice2
+if dicetotal == 7 || dicetotal == 11
+    puts "YOU WIN!"
+elsif dicetotal == 2 || dicetotal == 3 || dicetotal == 12 
+   puts "YOU LOSE!"
+else
+    puts "THE POINT IS #{dicetotal}"
+end
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
